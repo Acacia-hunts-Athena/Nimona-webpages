@@ -1,0 +1,190 @@
+<!doctype html><html><head><style type="text/css">body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://images.prismic.io/netflix-queue/f51c791c-ad48-4055-8943-275b2ce36626_as_jk_heart_moment_shapeshifters.jpg?auto=compress,format);
+  background-size: cover;
+  background-repeat: 
+  no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #D24545;
+  color: #E4DEBE;
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+
+
+/*Add a Nimona background with a 50% opacity layered over the BG color l8er
+THE STRUGGLE LORDDD
+
+*/
+/*Mission success heheheheh NOICEEEUUUU*/
+
+h1, p {
+  margin: 2em auto;
+  text-align: center;
+  font-size: min(5vw, 2em);
+}
+
+main {
+  padding-top: 10px;
+}
+
+.plaster {
+  width: 80%;
+  background-color: #A94438;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 50vw;
+  opacity: 90%;
+}
+/*HAHAHA I FIXED IT MWAHAHAHA, Kinda though, as a person that's never used a display as large as this i can't tell if it's awkward or not but hey, if it ain't broke don't fix it*/
+form {
+  width: 70vw;
+  max-width: 50vw;
+  min-width: 30vw;
+  margin: auto auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset {
+  border: none;
+  display: block;
+  padding: 2rem 0;
+  border-bottom: 3px solid #E6BAA3;
+  
+}
+
+input, textarea {
+  background-color: #86362d;
+  border: 1px solid #86362d;
+  color: #E4DEBE;
+  font-size: 14px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.inline{
+  display: inline; 
+}
+
+.small-divider{
+  background-color: #E6BAA3;
+  border-color: #E6BAA3;
+  width: 200px;
+}
+</style></head><body><!DOCTYPE html>
+<html lang="en">
+<!--Nimona Fan Club Survey Form-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Nimona Fan Club Survey Form</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<div class="plaster">
+		<main>
+			<h1 id="title">Nimona Fan Club Survey Form</h1>
+
+			<hr class="divider">
+
+			<p id="description">Kindly fill out this form to help us improve your membership experience!</p>
+
+			<hr class="small-divider">
+
+			<form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+				<fieldset>
+					<label id="name-label" for="name"> Enter Your Membership Username: <input id="name" name="name" type="text" placeholder="NimonaFan123" required /></label>
+
+					<label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="Nimona@hotmail.com" required /></label>
+
+					<label id="number-label" for="number">Membership age: (months) <input id="number" name="number" type="number" min="1" max="1200" placeholder="1" required /></label>
+				</fieldset>
+
+				<fieldset>
+					<label for="dropdown">How did you first discover Nimona?
+            <select id="dropdown" name="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">The Nimona Graphic Novel</option>
+              <option value="2">The Nimona Animated Feature Film</option>
+              <option value="3">Fan Art/Fan Animations</option>
+              <option value="4">Introduced to you by a friend/acquaintance</option>
+
+              <option value="5">Other</option>
+            </select>
+          </label>
+				</fieldset>
+
+				<fieldset>
+					<label>What gender do you identify as?</label>
+
+					<label id="female-gender" for="female"><input id="female" type="radio" name="member-gender" value="female" class="inline" checked/>Female</label>
+
+					<label id="male-gender" for="male"><input id="male" type="radio" value="male" name="member-gender" class="inline" />Male</label>
+
+					<label id="non-binary-gender" for="non-binary"><input id="non-binary" type="radio" name="member-gender" value="non-binary" class="inline" />Non-Binary</label>
+				</fieldset>
+
+				<fieldset>
+					<!-- multiple checkboxes doohickey-->
+					<p>Which aspects of Nimona do you like the most?</p>
+					<hr class="small-divider">
+					<label ><input name="aspect" type="checkbox" value="character-design" class="inline">Character design </label>
+
+					<label ><input name="aspect" type="checkbox" value="character-personality" class="inline">Character Personality </label>
+
+					<label ><input name="aspect" type="checkbox" value="character-diversity" class="inline">Character Diversity </label>
+
+					<label ><input name="aspect" type="checkbox" value="story-setting" class="inline">Story Setting </label>
+
+					<label ><input name="aspect" type="checkbox" value="story-plot" class="inline">Story Plot </label>
+
+					<label ><input name="aspect" type="checkbox" value="lgbtq-representation" class="inline">LGBTQ Representation </label>
+
+					<label ><input name="aspect" type="checkbox" value="nimona" class="inline">Nimona</label>
+
+					<label ><input name="aspect" type="checkbox" value="ballister-boldheart" class="inline">Ballister Boldheart</label>
+
+					<label ><input name="aspect" type="checkbox" value="ambrosius-goldenloin" class="inline">Ambrosius Goldenloin</label>
+
+					<label ><input name="aspect" type="checkbox" value="gloreth" class="inline">Gloreth</label>
+
+					<label for="other"> Other:
+  <textarea id="other" name="other" rows="5" cols="30" placeholder="Other......."></textarea>
+
+
+
+
+</fieldset>
+  <!--FIX DA SUBMIT BUTTON OKRAY!? Byeeeeee-->
+  <input type="submit" id="submit" value="submit" />
+  </form>
+  <!--Good job lmao, try make it fancy by making it change color when a mouse hovers over 👍🏾✨-->
+      </main>
+    </div>
+    </body>
+</html>
+
+  <script type="text/javascript"></script></body><html>
